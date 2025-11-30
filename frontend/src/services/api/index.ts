@@ -1,9 +1,9 @@
-import axios from "axios"
+import axios from "axios";
 
-const urlBase = "http://localhost:8800"
+const urlBase = "https://terrenos-rouge.vercel.app";
 
 const Api = axios.create({
   baseURL: urlBase,
-})
+});
 
-export { urlBase, Api }
+export { urlBase, Api };
